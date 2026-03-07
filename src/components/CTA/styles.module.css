@@ -1,0 +1,31 @@
+.cta {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  background-color: var(--teal-dark-2);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: var(--teal-dark-1);
+  }
+
+  &:active {
+    background-color: var(--teal-dark-3);
+  }
+
+  &:focus {
+    outline: 2px solid var(--teal-dark-2);
+    outline-offset: 2px;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &:visited {
+    color: #fff;
+  }
+}

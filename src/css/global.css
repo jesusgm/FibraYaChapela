@@ -1,0 +1,77 @@
+@import "./reset.css";
+
+/* base styles */
+:root {
+  --background: #d2e8e3;
+  --foreground: #2c3532;
+
+  /* Color Theme Variables */
+  --teal-dark-1: #2c3532;
+  --teal-dark-2: #0f6466;
+  --teal-dark-3: #d8b08c;
+  --teal-dark-4: #ffcb9a;
+  --teal-dark-5: #d2e8e3;
+
+  /* RGB versions for rgba() usage */
+  --teal-dark-5-rgb: 210, 232, 227;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--teal-dark-1);
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: var(--teal-dark-2);
+}
+
+/* Paragraph styles */
+p {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+}
+
+/* Link styles */
+a {
+  color: var(--teal-dark-2);
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--teal-dark-3);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--teal-dark-1);
+}
+
+/* Bold text styles */
+strong {
+  font-weight: 700;
+  color: var(--teal-dark-1);
+}
+
+sup {
+  font-size: 0.8em;
+  vertical-align: super;
+}
+
+ol {
+  list-style-type: decimal;
+  margin-left: 2rem;
+}

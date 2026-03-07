@@ -6,8 +6,10 @@ import styles from "./styles.module.css";
 export function FromSection() {
   return (
     <Section id="form" className={styles.formSection}>
-      <h2>Formulario</h2>
-      <Form />
+      <div>
+        <h2>Formulario</h2>
+        <Form />
+      </div>
     </Section>
   );
 }

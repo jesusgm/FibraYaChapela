@@ -12,7 +12,7 @@ export function Section({
 }) {
   return (
     <section id={id} className={cn(styles.section, className)}>
-      {children}
+      <div className={styles.container}>{children}</div>
     </section>
   );
 }

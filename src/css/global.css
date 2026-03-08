@@ -12,6 +12,14 @@
   --teal-dark-4: #ffcb9a;
   --teal-dark-5: #d2e8e3;
 
+  /* Enhanced CTA Colors */
+  --accent-primary: #00a896;
+  --accent-primary-hover: #00897b;
+  --accent-primary-active: #00695c;
+  --accent-secondary: #ffd166;
+  --accent-secondary-hover: #ffb300;
+  --accent-glow: rgba(0, 168, 150, 0.3);
+
   /* RGB versions for rgba() usage */
   --teal-dark-5-rgb: 210, 232, 227;
 }
@@ -37,6 +45,11 @@ h2 {
   color: var(--teal-dark-2);
 }
 
+h3 {
+  font-size: 1.15rem;
+  color: var(--teal-dark-2);
+}
+
 /* Paragraph styles */
 p {
   line-height: 1.6;
@@ -46,7 +59,7 @@ p {
 
 /* Link styles */
 a {
-  color: var(--teal-dark-2);
+  color: var(--accent-primary);
   text-decoration: underline;
   transition: color 0.2s ease;
 }
@@ -57,7 +70,7 @@ a:hover {
 }
 
 a:visited {
-  color: var(--teal-dark-1);
+  color: var(--accent-primary);
 }
 
 /* Bold text styles */
@@ -67,8 +80,12 @@ strong {
 }
 
 sup {
-  font-size: 0.8em;
+  font-size: 0.7em;
   vertical-align: super;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 ol {

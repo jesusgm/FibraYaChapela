@@ -4,7 +4,12 @@ import styles from "./styles.module.css";
 export function Header() {
   return (
     <header className={styles.header}>
-      <h1>Fibra Ya para los vecinos de Chapela</h1>
+      <a href="#top">
+        <img src="/fibra-icon.svg" alt="Logo" />
+      </a>
+      <h1>
+        Fibra ya <span>para los vecinos de Chapela</span>
+      </h1>
       <Menu />
     </header>
   );

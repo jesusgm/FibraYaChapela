@@ -1,8 +1,6 @@
 .history {
-  margin-inline: auto;
-  max-width: 80ch;
+  background: white;
 
   & h2 {
-    text-align: center;
   }
 }

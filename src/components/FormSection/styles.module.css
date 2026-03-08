@@ -1,8 +1,4 @@
 .formSection {
   background-color: #bbb;
   padding-top: 1rem;
-
-  & h2 {
-    text-align: center;
-  }
 }

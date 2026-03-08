@@ -7,7 +7,7 @@ export function Contact() {
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLScTuU5P5ukBRti9Af4ge7rgVDw3DNJ_xgOcO7MuQ3JM3JvRzA/viewform?embedded=true"
         width="100%"
-        height="650px"
+        height="700px"
         frameBorder={0}
         marginHeight={0}
         marginWidth={0}

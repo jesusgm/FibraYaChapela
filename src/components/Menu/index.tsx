@@ -33,6 +33,11 @@ export function Menu() {
           </a>
         </li>
         <li>
+          <a href="#summary" onClick={() => setIsOpen(false)}>
+            Resumen
+          </a>
+        </li>
+        <li>
           <a href="#history" onClick={() => setIsOpen(false)}>
             Historia
           </a>

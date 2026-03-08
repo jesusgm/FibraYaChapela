@@ -1,0 +1,11 @@
+.summary {
+  background: var(--teal-dark-4);
+  color: var(--teal-dark-1);
+
+  & h2 {
+  }
+}
+
+.cta {
+  text-align: center;
+}

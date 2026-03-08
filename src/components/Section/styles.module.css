@@ -8,3 +8,7 @@
   max-width: 800px;
   margin: 0 auto;
 }
+
+.fullWidth {
+  max-width: 100%;
+}

@@ -6,15 +6,18 @@ import { HistorySection } from "../HistorySection";
 import { QASection } from "../QASection";
 import { Footer } from "../Footer";
 import { Contact } from "../Contact";
+import { SummarySection } from "../SummarySection";
+import { Separator } from "../Separator";
 
 import styles from "./styles.module.css";
-import { Separator } from "../Separator";
 
 function App() {
   return (
     <main id="top" className={styles.main}>
       <Header />
       <HeroSection />
+      <Separator />
+      <SummarySection />
       <Separator />
       <HistorySection />
       <Separator />

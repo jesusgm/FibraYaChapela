@@ -5,14 +5,18 @@ export function Section({
   id,
   children,
   className,
+  fullWidth = false,
 }: {
   id: string;
   children: React.ReactNode;
   className?: string;
+  fullWidth?: boolean;
 }) {
   return (
     <section id={id} className={cn(styles.section, className)}>
-      <div className={styles.container}>{children}</div>
+      <div className={cn(styles.container, fullWidth && styles.fullWidth)}>
+        {children}
+      </div>
     </section>
   );
 }

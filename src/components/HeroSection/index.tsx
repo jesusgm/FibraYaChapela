@@ -12,7 +12,7 @@ import slide5Image from "../../assets/hero/5.jpg";
 
 import styles from "./styles.module.css";
 
-const SLIDE_INTERVAL = 10000;
+const SLIDE_INTERVAL = 15000;
 
 export function HeroSection() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
@@ -31,7 +31,7 @@ export function HeroSection() {
   }, [emblaApi]);
 
   return (
-    <Section id="hero">
+    <Section id="hero" fullWidth>
       <div className={styles.embla} ref={emblaRef}>
         <div className={styles.container}>
           <li className={styles.slide}>
@@ -40,13 +40,13 @@ export function HeroSection() {
               style={{ backgroundImage: `url(${slide1Image})` }}
             >
               <div className={styles.slideContent}>
-                <h2>Chapela también merece fibra</h2>
+                <h2>Todos merecemos fibra</h2>
                 <p>
-                  Los edificios pares del 114 al 144 en Avenida de Redondela
+                  Los edificios pares del 124 al 144 en Avenida de Redondela
                   siguen sin acceso a fibra óptica mientras el resto del barrio
                   sí tiene conexión.
                 </p>
-                <CTA text="👉 Firmar la petición" />
+                <CTA text="👉 Estoy interesado en fibra" />
               </div>
             </div>
           </li>
@@ -58,10 +58,10 @@ export function HeroSection() {
               <div className={styles.slideContent}>
                 <h2>Sin fibra en pleno 2026</h2>
                 <p>
-                  Teletrabajar, estudiar online o simplemente navegar con
-                  normalidad es imposible para muchos vecinos de nuestra calle.
+                  Teletrabajar, estudiar online o ver TV bajo demanda es
+                  imposible para muchos vecinos de nuestra calle.
                 </p>
-                <CTA text="📢 Apoya a los vecinos" />
+                <CTA text="📢 Quiero una conexión decente" />
               </div>
             </div>
           </li>
@@ -88,10 +88,10 @@ export function HeroSection() {
               <div className={styles.slideContent}>
                 <h2>No somos vecinos de segunda</h2>
                 <p>
-                  Chapela necesita una infraestructura digital justa para todos
-                  los vecinos, no solo para algunos edificios.
+                  Necesitamos una infraestructura digital justa para todos los
+                  vecinos, no solo para algunos edificios.
                 </p>
-                <CTA text="🤝 Unirme a la reclamación" />
+                <CTA text="🤝 Unirme a la petición" />
               </div>
             </div>
           </li>
@@ -103,8 +103,8 @@ export function HeroSection() {
               <div className={styles.slideContent}>
                 <h2>Vecinos unidos por la fibra</h2>
                 <p>
-                  Cuantas más firmas consigamos, más presión habrá para que las
-                  operadoras instalen fibra óptica en nuestra calle.
+                  Cuantas más solicitudes consigamos, más posibilidades habrá
+                  para que nos instalen fibra óptica en nuestra calle.
                 </p>
                 <CTA text="🚀 Firmar ahora" />
               </div>

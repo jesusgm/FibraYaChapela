@@ -123,7 +123,13 @@ export function HistorySection() {
         operadoras de telecomunicaciones comenzaron a desplegar sus redes de
         fibra óptica
         <sup>
-          <a href="#2">2</a>
+          <a
+            href="#2"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#2", element: "glossary-ref", id: "2" }}
+          >
+            2
+          </a>
         </sup>{" "}
         en nuestra zona. Sin embargo, cuando los técnicos llegaban a nuestro
         barrio para realizar las instalaciones, se encontraban con una barrera
@@ -131,17 +137,35 @@ export function HistorySection() {
         <strong>
           no existe ninguna CTO{" "}
           <sup>
-            <a href="#1">1</a>
+            <a
+              href="#1"
+              data-analytics-event="link-click"
+              data-payload={{ href: "#1", element: "glossary-ref", id: "1" }}
+            >
+              1
+            </a>
           </sup>
         </strong>
         . Esta caja es absolutamente fundamental en cualquier red de fibra, ya
         que es el punto físico donde se conecta la red troncal
         <sup>
-          <a href="#6">6</a>
+          <a
+            href="#6"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#6", element: "glossary-ref", id: "6" }}
+          >
+            6
+          </a>
         </sup>{" "}
         de fibra óptica
         <sup>
-          <a href="#2">2</a>
+          <a
+            href="#2"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#2", element: "glossary-ref", id: "2" }}
+          >
+            2
+          </a>
         </sup>
         y desde donde se distribuye el servicio a todas las viviendas y
         edificios del barrio. Sin una CTO cercana y accesible, es técnicamente
@@ -157,21 +181,39 @@ export function HistorySection() {
         cercanas a nuestro barrio se encuentran ubicadas calle arriba, lo que
         implicaría un tendido de fibra
         <sup>
-          <a href="#7">7</a>
+          <a
+            href="#7"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#7", element: "glossary-ref", id: "7" }}
+          >
+            7
+          </a>
         </sup>{" "}
         extremadamente largo y costoso, o al otro lado de la{" "}
         <strong>carretera nacional</strong>. Esta segunda opción es
         completamente inviable, ya que la legislación vigente prohíbe cruzar la
         carretera nacional con infraestructuras
         <sup>
-          <a href="#9">9</a>
+          <a
+            href="#9"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#9", element: "glossary-ref", id: "9" }}
+          >
+            9
+          </a>
         </sup>{" "}
         de este tipo por razones de seguridad y normativa vial (Aunque para el
         nuevo edificio si han cruzado la calle y no hubo problemas). Esta
         limitación geográfica nos deja completamente aislados y sin
         posibilidades de conexión a través de las infraestructuras
         <sup>
-          <a href="#9">9</a>
+          <a
+            href="#9"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#9", element: "glossary-ref", id: "9" }}
+          >
+            9
+          </a>
         </sup>{" "}
         existentes.
       </p>
@@ -182,7 +224,13 @@ export function HistorySection() {
         operadoras, existe un vecino en la zona que se niega rotundamente a
         permitir que el tendido de fibra óptica
         <sup>
-          <a href="#7">7</a>
+          <a
+            href="#7"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#7", element: "glossary-ref", id: "7" }}
+          >
+            7
+          </a>
         </sup>{" "}
         pase por su propiedad. Esta negativa, que se remonta a los momentos
         iniciales de la instalación, ha dejado el rollo de fibra completamente
@@ -197,11 +245,23 @@ export function HistorySection() {
         En este escenario de desesperación, <strong>Movistar</strong>, la
         empresa que mantiene el monopolio
         <sup>
-          <a href="#5">5</a>
+          <a
+            href="#5"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#5", element: "glossary-ref", id: "5" }}
+          >
+            5
+          </a>
         </sup>{" "}
         de la infraestructura
         <sup>
-          <a href="#9">9</a>
+          <a
+            href="#9"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#9", element: "glossary-ref", id: "9" }}
+          >
+            9
+          </a>
         </sup>{" "}
         de telecomunicaciones en nuestra zona, se ha negado sistemáticamente a
         realizar los trabajos necesarios para solucionar el problema. Los
@@ -221,11 +281,23 @@ export function HistorySection() {
         impotencia. Por un lado, no pueden conectar sus servicios a las CTOs de
         Movistar debido a las restricciones impuestas por el monopolio
         <sup>
-          <a href="#5">5</a>
+          <a
+            href="#5"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#5", element: "glossary-ref", id: "5" }}
+          >
+            5
+          </a>
         </sup>{" "}
         de la infraestructura
         <sup>
-          <a href="#9">9</a>
+          <a
+            href="#9"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#9", element: "glossary-ref", id: "9" }}
+          >
+            9
+          </a>
         </sup>
         . Por otro lado, ninguna de estas empresas está dispuesta a realizar la
         inversión necesaria para desplegar su propia red de fibra
@@ -245,6 +317,11 @@ export function HistorySection() {
           href="https://programasfibra.es/"
           target="_blank"
           rel="noopener noreferrer"
+          data-analytics-event="link-click"
+          data-payload={{
+            href: "https://programasfibra.es/",
+            element: "programasfibra",
+          }}
         >
           https://programasfibra.es/
         </a>
@@ -252,16 +329,34 @@ export function HistorySection() {
         afectados, <strong>AVATEL TELECOM S.A.</strong> fue la empresa que ganó
         una importante subvención
         <sup>
-          <a href="#8">8</a>
+          <a
+            href="#8"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#8", element: "glossary-ref", id: "8" }}
+          >
+            8
+          </a>
         </sup>{" "}
         dentro del programa{" "}
         <strong>
-          <a href="#8">UNICO 2022</a>
+          <a
+            href="#8"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#8", element: "glossary-ref", id: "8" }}
+          >
+            UNICO 2022
+          </a>
         </strong>
         , específicamente el proyecto <strong>TSI-061400-2022-0087</strong>.
         Esta subvención
         <sup>
-          <a href="#8">8</a>
+          <a
+            href="#8"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#8", element: "glossary-ref", id: "8" }}
+          >
+            8
+          </a>
         </sup>{" "}
         tenía como objetivo precisamente llevar conectividad de fibra óptica
         <sup>
@@ -282,7 +377,13 @@ export function HistorySection() {
         actitud de la empresa demuestra un absoluto desprecio hacia los vecinos
         y hacia las obligaciones que contrajeron al aceptar dicha subvención
         <sup>
-          <a href="#8">8</a>
+          <a
+            href="#8"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#8", element: "glossary-ref", id: "8" }}
+          >
+            8
+          </a>
         </sup>{" "}
         pública.
       </p>
@@ -325,6 +426,11 @@ export function HistorySection() {
           href="https://digital.gob.es/"
           target="_blank"
           rel="noopener noreferrer"
+          data-analytics-event="link-click"
+          data-payload={{
+            href: "https://digital.gob.es/",
+            element: "digital.gob.es",
+          }}
         >
           https://digital.gob.es/
         </a>
@@ -334,6 +440,11 @@ export function HistorySection() {
           href="https://usuariosteleco.digital.gob.es/derechos-usuario"
           target="_blank"
           rel="noopener noreferrer"
+          data-analytics-event="link-click"
+          data-payload={{
+            href: "https://usuariosteleco.digital.gob.es/derechos-usuario",
+            element: "derechos-usuario",
+          }}
         >
           https://usuariosteleco.digital.gob.es/derechos-usuario
         </a>
@@ -341,20 +452,44 @@ export function HistorySection() {
         y servicios de comunicaciones electrónicas. Sin embargo, las compañías
         se escudan en que al ofrecernos routers por radio
         <sup>
-          <a href="#3">3</a>
+          <a
+            href="#3"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#3", element: "glossary-ref", id: "3" }}
+          >
+            3
+          </a>
         </sup>{" "}
         y routers 4G/5G
         <sup>
-          <a href="#4">4</a>
+          <a
+            href="#4"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#4", element: "glossary-ref", id: "4" }}
+          >
+            4
+          </a>
         </sup>
         , consideran que ya cumplen con sus obligaciones, lo que les exime de
         tener que desplegar la infraestructura
         <sup>
-          <a href="#9">9</a>
+          <a
+            href="#9"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#9", element: "glossary-ref", id: "9" }}
+          >
+            9
+          </a>
         </sup>{" "}
         de fibra óptica
         <sup>
-          <a href="#2">2</a>
+          <a
+            href="#2"
+            data-analytics-event="link-click"
+            data-payload={{ href: "#2", element: "glossary-ref", id: "2" }}
+          >
+            2
+          </a>
         </sup>{" "}
         que realmente necesitamos y a la que tenemos derecho.
       </p>
@@ -362,7 +497,15 @@ export function HistorySection() {
         Como último recurso, hemos contactado con diferentes empresas locales
         que ofrecen servicios de fibra óptica en nuestra zona. Una de ellas es{" "}
         <strong>
-          <a target="_blank" href="https://www.aureatelecom.com/">
+          <a
+            target="_blank"
+            href="https://www.aureatelecom.com/"
+            data-analytics-event="link-click"
+            data-payload={{
+              href: "https://www.aureatelecom.com/",
+              element: "Aurea Telecom",
+            }}
+          >
             Aurea Telecom
           </a>
         </strong>
@@ -375,8 +518,15 @@ export function HistorySection() {
         Para cubrir economicamente los gastos de instalación, la empresa va a
         pedir una subvención alegando que es una zona donde hay especial interes
         por la fibra y que las demás compañías no dan servicio. y para solicitar
-        esa subvención, necesita los datos del <a href="#form">formulario</a> de
-        esta página.
+        esa subvención, necesita los datos del{" "}
+        <a
+          href="#form"
+          data-analytics-event="link-click"
+          data-payload={{ href: "#form", element: "inline-form-link" }}
+        >
+          formulario
+        </a>{" "}
+        de esta página.
       </p>
 
       <br />

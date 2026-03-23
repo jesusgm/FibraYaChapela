@@ -14,6 +14,7 @@ export function Menu() {
         className={styles.hamburger}
         onClick={toggleMenu}
         aria-label="Toggle menu"
+        data-analytics-event="menu-toggle"
       >
         <span
           className={`${styles.hamburgerLine} ${isOpen ? styles.open : ""}`}
@@ -28,32 +29,62 @@ export function Menu() {
 
       <ul className={`${styles.menuList} ${isOpen ? styles.open : ""}`}>
         <li>
-          <a href="#top" onClick={() => setIsOpen(false)}>
+          <a
+            href="#top"
+            onClick={() => setIsOpen(false)}
+            data-analytics-event="menu-item-click"
+            data-payload={{ element: "top" }}
+          >
             Inicio
           </a>
         </li>
         <li>
-          <a href="#summary" onClick={() => setIsOpen(false)}>
+          <a
+            href="#summary"
+            onClick={() => setIsOpen(false)}
+            data-analytics-event="menu-item-click"
+            data-payload={{ element: "summary" }}
+          >
             Resumen
           </a>
         </li>
         <li>
-          <a href="#history" onClick={() => setIsOpen(false)}>
+          <a
+            href="#history"
+            onClick={() => setIsOpen(false)}
+            data-analytics-event="menu-item-click"
+            data-payload={{ element: "history" }}
+          >
             Historia
           </a>
         </li>
         <li>
-          <a href="#form" onClick={() => setIsOpen(false)}>
+          <a
+            href="#form"
+            onClick={() => setIsOpen(false)}
+            data-analytics-event="menu-item-click"
+            data-payload={{ element: "form" }}
+          >
             Formulario
           </a>
         </li>
         <li>
-          <a href="#preguntas-frecuentes" onClick={() => setIsOpen(false)}>
+          <a
+            href="#preguntas-frecuentes"
+            onClick={() => setIsOpen(false)}
+            data-analytics-event="menu-item-click"
+            data-payload={{ element: "faqs" }}
+          >
             Dudas?
           </a>
         </li>
         <li>
-          <a href="#contact" onClick={() => setIsOpen(false)}>
+          <a
+            href="#contact"
+            onClick={() => setIsOpen(false)}
+            data-analytics-event="menu-item-click"
+            data-payload={{ element: "contact" }}
+          >
             Contacto
           </a>
         </li>

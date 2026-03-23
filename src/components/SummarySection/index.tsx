@@ -11,7 +11,15 @@ export function SummarySection() {
       <p>
         Hemos encontrado una empresa ({" "}
         <strong>
-          <a target="_blank" href="https://www.aureatelecom.com/">
+          <a
+            target="_blank"
+            href="https://www.aureatelecom.com/"
+            data-analytics-event="link-click"
+            data-payload={{
+              href: "https://www.aureatelecom.com/",
+              element: "Aurea Telecom",
+            }}
+          >
             Aurea Telecom
           </a>
         </strong>

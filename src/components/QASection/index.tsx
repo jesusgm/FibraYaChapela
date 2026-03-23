@@ -67,6 +67,11 @@ export function QASection() {
                 className={styles.question}
                 onClick={() => toggleQuestion(index)}
                 aria-expanded={activeIndex === index}
+                data-analytics-event="qa-question-click"
+                data-payload={{
+                  element: item.question,
+                  open: activeIndex === index,
+                }}
               >
                 <span className={styles.questionText}>{item.question}</span>
                 <span

@@ -112,10 +112,20 @@ export function HeroSection() {
           </li>
         </div>
       </div>
-      <button className={styles.embla__prev} onClick={goToPrev}>
+      <button
+        className={styles.embla__prev}
+        onClick={goToPrev}
+        data-analytics-event="hero-carousel-nav"
+        data-payload={{ direction: "prev" }}
+      >
         ←
       </button>
-      <button className={styles.embla__next} onClick={goToNext}>
+      <button
+        className={styles.embla__next}
+        onClick={goToNext}
+        data-analytics-event="hero-carousel-nav"
+        data-payload={{ direction: "next" }}
+      >
         →
       </button>
     </Section>

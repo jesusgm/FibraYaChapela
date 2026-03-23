@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 export function Header() {
   return (
     <header className={styles.header}>
-      <a href="#top">
+      <a href="#top" data-analytics-event="logo-click">
         <img src="/fibra-icon.svg" alt="Logo" />
       </a>
       <h1>

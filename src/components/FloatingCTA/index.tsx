@@ -9,7 +9,13 @@ export function FloatingCTA({ hidden = false }: FloatingCTAProps) {
 
   return (
     <div className={styles.floatingCta}>
-      <a href="#form">¡Ir al formulario!</a>
+      <a
+        href="#form"
+        data-analytics-event="floating-cta-click"
+        data-payload={{ element: "Ir al formulario" }}
+      >
+        ¡Ir al formulario!
+      </a>
     </div>
   );
 }
